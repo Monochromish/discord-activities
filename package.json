@@ -1,0 +1,31 @@
+{
+  "name": "discord-activities",
+  "version": "1.0.0",
+  "description": "Just a simple discord activities bot written in JavaScript that somehow supports slash commands and works exceptionally well, nothing much nothing less.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monochromish/discord-activities.git"
+  },
+  "keywords": [
+    "Activities",
+    "Discord",
+    "Slash",
+    "JavaScript"
+  ],
+  "author": "Monochromish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Monochromish/discord-activities/issues"
+  },
+  "homepage": "https://github.com/Monochromish/discord-activities#readme",
+  "dependencies": {
+    "consola": "^2.15.3",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.5"
+  }
+}

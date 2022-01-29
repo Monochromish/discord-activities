@@ -39,10 +39,8 @@ Save changes and either open start.bat file or run `node .` to run the discord b
 
 ## Common errors
 
-1. Abort Controller /unexpected token '?' (node version)
-   Discord.js v13 requires Node.js version 16.6 or newer to run!
-2. Missing Access (Oauth2 scope for slash commands)
-   Enable the `applications.commands` scope for your bot
+1. Abort Controller /unexpected token '?' (node version) : Discord.js v13 requires Node.js version 16.6 or newer to run!
+2. Missing Access (Oauth2 scope for slash commands) : Enable the `applications.commands` scope for your bot
 
 ## Credits
 

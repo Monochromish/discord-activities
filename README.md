@@ -45,4 +45,4 @@ Save changes and either open start.bat file or run `node .` to run the discord b
 ## Credits
 
 Code was written by [Monochromish](https://monolul.me).
-If you come across any errors or need help with setting up, feel free to DM me on Discord.
+If you come across any errors or need help with setting up, feel free to DM me on Discord or join my [Development server](https://discord.com/invite/E6z5ZmsV4m).

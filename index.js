@@ -30,9 +30,14 @@ client.categories = readdirSync('./slashCommands/');
 client.logger = consola;
 require('./handler/Client')(client);
 
-//Verifying Config.json and Logging in Client
+//Status and stuff
+client.on("ready", () => {
+  client.user.setActivity(`/activities`, { type: "LISTENING" });
+});
+
+//Verifying process.env.TOKEN and Logging in Client
 if (!process.env.TOKEN) {
-	client.logger.error('Client token must be provided in config.json');
+	client.logger.error('Client token must be provided in process.env.TOKEN');
 } else {
 	client.login(process.env.TOKEN);
 }

@@ -45,8 +45,8 @@ module.exports = {
 					value: 'pokernight'
 				},
 				{
-					name: 'Putt Party (Requires Boost Level 1)',
-          value: 'puttparty'
+					name: 'Putt Party (Requires Boost Level 1)',	
+          				value: 'puttparty'
 				},
 				{
 					name: 'Land-io (Requires Boost Level 1)',
@@ -90,7 +90,7 @@ module.exports = {
 			return interaction.editReply('You must be in a voice channel to use this command');
 
     
-		if (interaction.options.get('activities').value === 'watchtogether') id = '880218394199220334';//-
+		if (interaction.options.get('activities').value === 'watchtogether') id = '880218394199220334';
 		if (interaction.options.get('activities').value === 'sketchheads') id = '902271654783242291';
 		if (interaction.options.get('activities').value === 'knowwhatimeme') id = '950505761862189096';
 		if (interaction.options.get('activities').value === 'askaway') id = '976052223358406656';
@@ -102,9 +102,9 @@ module.exports = {
 		if (interaction.options.get('activities').value === 'landio') id = '903769130790969345';
 		if (interaction.options.get('activities').value === 'blazing') id = '832025144389533716';
 		if (interaction.options.get('activities').value === 'chess') id = '832012774040141894';
-    if (interaction.options.get('activities').value === 'spellcast') id = '852509694341283871';
-    if (interaction.options.get('activities').value === 'letterleague') id = '879863686565621790';
-    if (interaction.options.get('activities').value === 'checkers') id = '832013003968348200';
+    		if (interaction.options.get('activities').value === 'spellcast') id = '852509694341283871';
+    		if (interaction.options.get('activities').value === 'letterleague') id = '879863686565621790';
+    		if (interaction.options.get('activities').value === 'checkers') id = '832013003968348200';
 
 		fetch(`https://discord.com/api/v8/channels/${interaction.member.voice.channel.id}/invites`, {
 			method: 'POST',

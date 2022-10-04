@@ -4,18 +4,21 @@ Just a simple discord activities bot written in JavaScript that somehow supports
 
 ## Activities included
 
-- [x] Awkword
-- [x] Betrayal.io
-- [x] Checkers
-- [x] Chess In The Park
-- [x] Doodle Crew
-- [x] Fishington.io
-- [x] Letter Tile
-- [x] Poker Night
-- [x] Putt Party
-- [x] Spell Cast
-- [x] Word Snack
-- [x] Youtube Together
+- [x] Watch Together
+- [x] Sketch Heads
+- [x] Know What I Meme (New!)
+- [x] Ask Away (New!)
+- [x] Word Snacks
+- [x] Bash Out (New! Requires Boost Level 1)
+- [x] Bobble League (Requires Boost Level 1)
+- [x] Poker Night (Requires Boost Level 1)
+- [x] Putt Party (Requires Boost Level 1)
+- [x] Land-io (Requires Boost Level 1)
+- [x] Blazing 8s (Requires Boost Level 1)
+- [x] Chess In The Park (Requires Boost Level 1)
+- [x] SpellCast (Requires Boost Level 1)
+- [x] Letter League (Requires Boost Level 1)
+- [x] Checkers In The Park (Requires Boost Level 1)
 
 ## Requirements
 
@@ -26,14 +29,6 @@ Just a simple discord activities bot written in JavaScript that somehow supports
 
 1. Download or Clone this repository.
 2. Open terminal or console in the root folder and run `npm install`. This is a one-time operation; It installs the required dependencies.
-3. Open the file named config.json in a text editor or an IDE and modify it.
-   It should then look something like this:
-
-```js
-{
-    "token": "YOUR DISCORD BOT TOKEN"
-}
-```
 
 Save changes and either open start.bat file or run `node .` to run the discord bot.
 

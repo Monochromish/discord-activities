@@ -26,7 +26,6 @@ const client = new Client({
 module.exports = client;
 
 client.slashCommands = new Collection();
-client.config = require('./config.json');
 client.categories = readdirSync('./slashCommands/');
 client.logger = consola;
 require('./handler/Client')(client);
